@@ -1,4 +1,4 @@
-#include <print.hpp>
+#include "print.h"
 
 int main(int argc, char** argv) {
   std::ofstream file("log.txt");
