@@ -34,3 +34,5 @@ install(TARGETS print
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/ DESTINATION include)
 install(EXPORT print-config DESTINATION cmake)
+enable_testing()
+add_test(NAME Example1 COMMAND example1)
